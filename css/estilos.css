@@ -1,0 +1,217 @@
+/*
+!CLASES GENERALES
+*/
+html, body{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+ul{
+    padding: 0;
+}
+button{
+    background-color: rgb(253, 122, 144);
+    color: black;
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    margin-top: 90px;
+    cursor: pointer;
+}
+footer{
+    padding: 50px 40px 25px 40px;
+    background-color:#26272b;
+    line-height: 24px;
+    color: #737373;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.plantilla{
+    display: grid;
+}
+.plantilla2{
+    display: flex;
+}
+.evenly{
+    justify-content: space-evenly;
+}
+.right{
+    justify-content: end;
+}
+.p{
+    text-align: center;
+    align-items: center;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+}
+.centradoY{
+    align-items: center;
+}
+.veinte_cuarenta{
+    grid-template-columns: 5% 47.5% 47.5%;
+}
+.mitad_auto{
+    grid-template-columns: 50% auto auto;
+}
+.mitad{
+    grid-template-columns: 50% 50%;
+}
+.margenes_laterales{
+    padding: 0 25px;
+}
+.justify_center{
+    justify-content: center;
+}
+.centro_generico{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+/*
+!HEADER
+*/
+.margin_left{
+    margin-left: 10px;
+}
+.padre1{
+    display: grid;
+    grid-template-columns: auto 50% auto;
+    background-color: grey;
+    color: aliceblue;
+    padding: 15px;
+}
+.logoCentrado{
+    justify-content: center;
+}
+
+
+
+/*
+!MAIN
+*/
+.section{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+    height: 250px;
+    margin: 20px;
+    padding-top: 30px;
+}
+.carrousel{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    justify-content: space-evenly;
+    justify-items: center; /*porfin*/
+    align-items: center;
+    margin-bottom: 25px;
+    width: 90%;
+    margin: auto;
+}
+.carrousel2{
+    text-align: center;
+    /*height: 150px;
+    width: 150px;
+    align-items: center;
+    margin: 10px 20px 10px 20px;*/
+}
+.carrousel2 div img{
+    width: 95%;
+    height: 180px;
+}
+
+
+
+/*
+!FOOTER
+*/
+footer h4{
+    color: white;
+}
+footer *{
+    color: #737373;
+}
+footer img{
+    width: 24px;
+    padding: 0 15px;
+}
+.redes{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+
+
+/*
+!ACCOUNT / FORM
+*/
+form > div{
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px 30px 5px 30px;
+    box-shadow: 1px 1px 20px;
+}
+form img{
+    width: 16px;
+    margin-top: 15px;
+}
+input{
+    border: none;
+    background-color: #e9e9e9;
+    padding: 10px;
+}
+#registro{
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+}
+#login{
+    border: none;
+    background-color: #e9e9e9;
+    padding: 10px;
+    margin-top: 30px;
+}
+.fondo_account{
+    background: url(../img/fondoAccount.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.bgc_registro{
+    background-color: mediumslateblue;
+    border-radius: 5px 30px 5px 30px;
+    z-index: 1;
+}
+.logos_redes{
+    width: 24px;
+}
+.setenta{
+    width: 70%;
+    margin: auto;
+}
+.tarjeta {
+    position: relative;
+    animation: iniciar  2s;
+    /*animation-fill-mode: forwards;*/
+}
+@keyframes iniciar {
+
+    20%,
+    90% {
+        transform: translateX(100%);
+    }
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+}
