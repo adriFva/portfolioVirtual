@@ -1,6 +1,9 @@
 /*
 !CLASES GENERALES
 */
+/*
+!CLASES GENERALES
+*/
 html, body{
     padding: 0;
     margin: 0;
@@ -13,9 +16,7 @@ ul{
 }
 button{
     background-color: rgb(253, 122, 144);
-    color: black;
-    width: 100px;
-    height: 40px;
+    font-size:30px;
     border-radius: 15px;
     margin-top: 90px;
     cursor: pointer;
@@ -105,7 +106,7 @@ a{
     color: aliceblue;
     text-align: center;
     align-items: center;
-    height: 250px;
+    height: 400px;
     margin: 20px;
     padding-top: 30px;
 }
